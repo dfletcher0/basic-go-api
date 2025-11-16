@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dfletcher0/basic-go-api/internals/handlers"
+	"github.com/dfletcher0/basic-go-api/internal/handlers"
 	"github.com/go-chi/chi"
 	log "github.com/sirupsen/logrus"
 )

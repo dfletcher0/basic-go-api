@@ -40,7 +40,7 @@ func Authorization(next http.Handler) http.Handler {
 		}
 
 		// query database using GetUserLoginDetails method
-		var loginDetails *tools.loginDetails
+		var loginDetails *tools.LoginDetails
 		loginDetails = (*database).GetUserLoginDetails(username)
 
 		// if login details cannot be found, or retrieved token doesn't match, exit with unauthorized
