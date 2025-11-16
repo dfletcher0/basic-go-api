@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/dfletcher0/basic-go-api/api"
-	"github.com/dfletcher0/basic-go-tutorial/internal/tools"
+	"github.com/dfletcher0/basic-go-api/internal/tools"
 	log "github.com/sirupsen/logrus"
 )
 
